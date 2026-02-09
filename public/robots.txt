@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://geoscrypto.github.io/studious-waffle/sitemap.xml
