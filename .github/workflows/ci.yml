@@ -1,0 +1,40 @@
+name: CI - Build and Test
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ESLint
+        run: npm run lint --if-present
+
+      - name: Build project
+        run: npm run build
+
+      - name: Check build output
+        run: |
+          if [ -d "out" ]; then
+            echo "✅ Build successful - output directory created"
+            ls -la out
+          else
+            echo "❌ Build failed - no output directory"
+            exit 1
+          fi

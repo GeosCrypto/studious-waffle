@@ -1,0 +1,173 @@
+.docsPage {
+  padding: 3rem 0;
+  min-height: 80vh;
+}
+
+.docsHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.docsHeader h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.docsHeader p {
+  color: var(--text-secondary);
+  font-size: 1.125rem;
+}
+
+.docsContent {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 968px) {
+  .docsContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .sidebar {
+    position: static !important;
+  }
+}
+
+.sidebar {
+  position: sticky;
+  top: 6rem;
+  height: fit-content;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: var(--bg-secondary);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.nav a {
+  color: var(--text-secondary);
+  padding: 0.5rem 0;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: var(--primary-color);
+}
+
+.mainContent {
+  max-width: 800px;
+}
+
+.section {
+  margin-bottom: 4rem;
+  scroll-margin-top: 5rem;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.section h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.section ul,
+.section ol {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.section li {
+  margin-bottom: 0.5rem;
+}
+
+.section code {
+  background: var(--bg-accent);
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+  color: var(--primary-color);
+}
+
+.codeBlock {
+  background: var(--text-primary);
+  color: #e5e7eb;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.codeBlock pre {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.codeBlock code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+.section a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.section a:hover {
+  color: var(--primary-dark);
+}
+
+.ctaBox {
+  background: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.ctaBox p {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .docsHeader h1 {
+    font-size: 2rem;
+  }
+  
+  .section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .section h3 {
+    font-size: 1.25rem;
+  }
+}
