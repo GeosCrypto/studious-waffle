@@ -1,14 +1,8 @@
-Copilot said: You're absolutely right - I apologize for
-You're absolutely right - I apologize for the confusion. Let me give you the COMPLETE, CORRECT code right here to copy and paste:
-
-✅ COPY THIS COMPLETE CODE
-Go to: https://github.com/GeosCrypto/studious-waffle/edit/main/data/products.js
-
-Delete everything and paste this:
-
-JavaScript
-// Product data structure - Expanded Catalog with 38 Premium Digital Products
+// Product data structure - Expanded Catalog with 34+ Premium Digital Products
 export const products = [
+  // ============================================
+  // EXISTING PRODUCTS (Keep as-is)
+  // ============================================
   {
     id: 1,
     name: "Digital Creativity Bundle",
@@ -90,12 +84,16 @@ export const products = [
     featured: false,
     tags: ["ui", "components", "figma", "react"]
   },
+
+  // ============================================
+  // NEW DIGITAL TOOLS & DESIGN PRODUCTS
+  // ============================================
   {
     id: 7,
     name: "Premium Icon Pack Collection",
     slug: "premium-icon-pack-collection",
-    description: "5000+ vector icons across 20+ styles including line, solid, duotone. Perfect for web, mobile, and design projects.",
-    longDescription: "Transform your designs with our massive icon collection. Get instant access to 5000+ professionally crafted icons in 20+ distinct styles. Every icon comes in multiple formats and is fully customizable.",
+    description: "5000+ vector icons across 20+ styles including line, solid, duotone. Perfect for web, mobile, and design projects. SVG, PNG, and icon font formats included.",
+    longDescription: "Transform your designs with our massive icon collection. Get instant access to 5000+ professionally crafted icons in 20+ distinct styles. Every icon comes in multiple formats (SVG, PNG, icon fonts) and is fully customizable. Includes categories for business, technology, social media, e-commerce, and more. Regular updates add 100+ new icons monthly. Compatible with Figma, Sketch, Adobe XD, and all design tools. Perfect for designers, developers, and marketers who need high-quality icons fast.",
     price: 34.99,
     gumroadUrl: "https://gumroad.com/l/premium-icon-pack",
     image: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=800&h=600&fit=crop",
@@ -108,8 +106,8 @@ export const products = [
     id: 8,
     name: "Social Media Template Mega Pack",
     slug: "social-media-template-mega-pack",
-    description: "500+ professionally designed templates for Instagram, Facebook, LinkedIn, Twitter, and TikTok.",
-    longDescription: "Stop wasting hours designing social media posts. Our mega pack includes 500+ professionally designed templates that get results.",
+    description: "500+ professionally designed templates for Instagram, Facebook, LinkedIn, Twitter, and TikTok. Canva, Figma, and Photoshop formats. Boost engagement instantly.",
+    longDescription: "Stop wasting hours designing social media posts. Our mega pack includes 500+ professionally designed templates that get results. Covers all major platforms with posts, stories, reels, covers, and ads. Each template is fully editable in Canva (free), Figma, and Photoshop. Organized by niche: business, tech, lifestyle, coaching, e-commerce. Includes color schemes, font pairings, and design guidelines. Used by 10,000+ creators and businesses to create scroll-stopping content in minutes. Lifetime updates included.",
     price: 39.99,
     gumroadUrl: "https://gumroad.com/l/social-media-templates",
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop",
@@ -123,8 +121,8 @@ export const products = [
     id: 9,
     name: "Brand Identity Kit",
     slug: "brand-identity-kit",
-    description: "Complete branding system with logo templates, color palettes, typography, and brand guidelines.",
-    longDescription: "Build a memorable brand without hiring expensive designers. This comprehensive kit includes everything you need.",
+    description: "Complete branding system with logo templates, color palettes, typography, and brand guidelines. Launch your professional brand in one day.",
+    longDescription: "Build a memorable brand without hiring expensive designers. This comprehensive kit includes everything you need: 50+ logo templates (fully customizable), 100+ color palette combinations, font pairing recommendations, business card designs, letterhead templates, social media kits, and professional brand guideline templates. Perfect for startups, freelancers, and small businesses. All files in AI, PSD, Figma, and Canva formats. Includes video tutorials on customization and brand strategy. Launch your cohesive brand identity in hours, not weeks.",
     price: 59.99,
     gumroadUrl: "https://gumroad.com/l/brand-identity-kit",
     image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=600&fit=crop",
@@ -136,8 +134,8 @@ export const products = [
     id: 10,
     name: "Typography Collection Pro",
     slug: "typography-collection-pro",
-    description: "50 premium font families with commercial licenses.",
-    longDescription: "Elevate your designs with our exclusive typography collection. 50 professionally crafted font families you won't find on Google Fonts.",
+    description: "50 premium font families with commercial licenses. Unique, professional typefaces for branding, web design, and marketing materials.",
+    longDescription: "Elevate your designs with our exclusive typography collection. 50 professionally crafted font families you won't find on Google Fonts. Each family includes multiple weights (thin to black), italics, and special characters. Full commercial license included - use in client work, products, and websites without restrictions. Styles range from elegant serifs to modern sans-serifs, playful display fonts to professional monospaces. Perfect for branding, web design, packaging, and marketing. Includes pairing guide and installation instructions for Mac and Windows.",
     price: 79.99,
     gumroadUrl: "https://gumroad.com/l/typography-collection",
     image: "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=800&h=600&fit=crop",
@@ -149,8 +147,8 @@ export const products = [
     id: 11,
     name: "3D Asset Library",
     slug: "3d-asset-library",
-    description: "300+ high-quality 3D models, textures, and materials for Blender and Cinema 4D.",
-    longDescription: "Bring your creative visions to life with our extensive 3D asset library.",
+    description: "300+ high-quality 3D models, textures, and materials for Blender and Cinema 4D. Perfect for motion graphics, product renders, and creative projects.",
+    longDescription: "Bring your creative visions to life with our extensive 3D asset library. Includes 300+ professionally modeled objects spanning tech devices, abstract shapes, architectural elements, nature items, and furniture. Every model is optimized for rendering with proper topology and UV mapping. Includes 100+ PBR materials and textures (4K resolution). Compatible with Blender, Cinema 4D, Maya, and 3ds Max. Perfect for motion designers, product visualizers, and 3D artists. Regular monthly updates add new models. Comes with lighting setups and scene files to get you started fast.",
     price: 69.99,
     gumroadUrl: "https://gumroad.com/l/3d-asset-library",
     image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop",
@@ -163,8 +161,8 @@ export const products = [
     id: 12,
     name: "Illustration Mega Pack",
     slug: "illustration-mega-pack",
-    description: "800+ vector illustrations across 10+ styles.",
-    longDescription: "Never search for stock illustrations again. This mega pack contains 800+ unique vector illustrations.",
+    description: "800+ vector illustrations across 10+ styles. Perfect for websites, presentations, apps, and marketing. Fully customizable SVG files.",
+    longDescription: "Never search for stock illustrations again. This mega pack contains 800+ unique vector illustrations in 10+ cohesive styles (flat, isometric, line art, hand-drawn, abstract, and more). Every illustration is fully editable vector (AI, SVG, Figma). Covers business concepts, technology, people, objects, backgrounds, and icons. Perfect for landing pages, pitch decks, app UIs, social media, and marketing materials. All illustrations are customizable with your brand colors. Organized by category for easy searching. Includes Figma library for drag-and-drop use.",
     price: 49.99,
     gumroadUrl: "https://gumroad.com/l/illustration-mega-pack",
     image: "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=800&h=600&fit=crop",
@@ -176,8 +174,8 @@ export const products = [
     id: 13,
     name: "Animation Presets Collection",
     slug: "animation-presets-collection",
-    description: "500+ professional animation presets for After Effects and Premiere Pro.",
-    longDescription: "Add professional motion graphics to your videos in seconds.",
+    description: "500+ professional animation presets for After Effects and Premiere Pro. Text animations, transitions, overlays, and effects. Instant professional polish.",
+    longDescription: "Add professional motion graphics to your videos in seconds. This collection includes 500+ drag-and-drop animation presets for After Effects and Premiere Pro. Includes smooth text animations, seamless transitions, lower thirds, call-outs, overlays, VFX elements, and color grading presets. Perfect for YouTube creators, video editors, and content producers. Every preset is fully customizable and works with any footage. Includes tutorial videos showing best practices. Compatible with After Effects CC 2020+ and Premiere Pro CC 2020+. Make your videos stand out without expensive plugins.",
     price: 54.99,
     gumroadUrl: "https://gumroad.com/l/animation-presets",
     image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&h=600&fit=crop",
@@ -189,8 +187,8 @@ export const products = [
     id: 14,
     name: "Stock Photo Bundle - Tech Edition",
     slug: "stock-photo-bundle-tech",
-    description: "1000+ royalty-free 4K photos featuring tech, workspace, and business themes.",
-    longDescription: "Build professional projects with our curated tech photo collection.",
+    description: "1000+ royalty-free 4K photos featuring tech, workspace, and business themes. Perfect for websites, presentations, and marketing.",
+    longDescription: "Build professional projects with our curated tech photo collection. 1000+ high-resolution images (4K) covering modern workspaces, technology, coding, teamwork, devices, startups, and digital business. Every photo is royalty-free with commercial license - use in client work, products, and marketing without attribution. Professionally shot and edited for consistency. Organized by category and tagged for easy searching. Perfect for SaaS websites, tech blogs, presentations, social media, and marketing campaigns. Includes both light and dark themed images.",
     price: 44.99,
     gumroadUrl: "https://gumroad.com/l/stock-photo-tech",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=600&fit=crop",
@@ -198,12 +196,16 @@ export const products = [
     featured: false,
     tags: ["photos", "stock", "tech", "business"]
   },
+
+  // ============================================
+  // NEW DEVELOPER TOOLS
+  // ============================================
   {
     id: 15,
     name: "Full-Stack Boilerplate Collection",
     slug: "full-stack-boilerplate-collection",
-    description: "Production-ready starter templates for Next.js, React, Node.js, Django, and Laravel.",
-    longDescription: "Stop building the same features over and over. Our boilerplate collection gives you battle-tested starter projects.",
+    description: "Production-ready starter templates for Next.js, React, Node.js, Django, and Laravel. Auth, payments, dashboards pre-built. Launch faster.",
+    longDescription: "Stop building the same features over and over. Our boilerplate collection gives you battle-tested starter projects that save weeks of development. Includes Next.js SaaS starter, React dashboard, Node.js API boilerplate, Django full-stack, and Laravel admin panel. Every template includes: authentication (email, OAuth, magic links), payment integration (Stripe ready), admin dashboard, user management, email templates, and deployment configs. Clean, documented code following best practices. TypeScript support, testing setup, and CI/CD workflows included. Perfect for founders, agencies, and developers who want to ship fast.",
     price: 89.99,
     gumroadUrl: "https://gumroad.com/l/fullstack-boilerplate",
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop",
@@ -217,8 +219,8 @@ export const products = [
     id: 16,
     name: "API Integration Templates",
     slug: "api-integration-templates",
-    description: "Ready-to-use code for integrating Stripe, Twilio, SendGrid, AWS, and 20+ popular APIs.",
-    longDescription: "Integrate third-party services in minutes, not hours.",
+    description: "Ready-to-use code for integrating Stripe, Twilio, SendGrid, AWS, and 20+ popular APIs. Save hours of integration work.",
+    longDescription: "Integrate third-party services in minutes, not hours. This collection provides production-ready code for 25+ popular APIs including Stripe payments, Twilio SMS, SendGrid emails, AWS S3, Google Maps, OpenAI, and more. Each integration includes: setup instructions, error handling, rate limiting, webhook handling, and testing examples. Available for Node.js, Python, and PHP. Every template follows security best practices and includes documentation. Perfect for developers who want clean, maintainable integration code. Regular updates as APIs evolve.",
     price: 44.99,
     gumroadUrl: "https://gumroad.com/l/api-integration-templates",
     image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop",
@@ -230,8 +232,8 @@ export const products = [
     id: 17,
     name: "Testing & DevOps Toolkit",
     slug: "testing-devops-toolkit",
-    description: "Complete CI/CD setup with GitHub Actions, Docker configs, testing frameworks, and deployment scripts.",
-    longDescription: "Build bulletproof deployment pipelines with our DevOps toolkit.",
+    description: "Complete CI/CD setup with GitHub Actions, Docker configs, testing frameworks, and deployment scripts. Ship with confidence.",
+    longDescription: "Build bulletproof deployment pipelines with our DevOps toolkit. Includes ready-to-use GitHub Actions workflows for testing, building, and deploying. Complete Docker setups for development and production. Testing configurations for Jest, Pytest, PHPUnit, and Cypress. Database migration strategies, environment management, and secrets handling. Monitoring and logging setup with popular tools. Perfect for teams who want automated, reliable deployments. Works with AWS, Vercel, Netlify, DigitalOcean, and more. Includes best practices documentation and troubleshooting guides.",
     price: 39.99,
     gumroadUrl: "https://gumroad.com/l/testing-devops-toolkit",
     image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&h=600&fit=crop",
@@ -243,8 +245,8 @@ export const products = [
     id: 18,
     name: "Database Schema Library",
     slug: "database-schema-library",
-    description: "Production-ready database schemas for common use cases: e-commerce, SaaS, social networks, CRM.",
-    longDescription: "Don't reinvent the wheel when designing databases.",
+    description: "Production-ready database schemas for common use cases: e-commerce, SaaS, social networks, CRM, and more. PostgreSQL and MySQL.",
+    longDescription: "Don't reinvent the wheel when designing databases. This library provides proven schemas for 15+ common application types. Each schema includes: well-designed tables, proper relationships, indexes for performance, migration files, and data examples. Covers e-commerce, multi-tenant SaaS, social platforms, CRM, LMS, booking systems, and more. Available for PostgreSQL and MySQL with migration files for popular frameworks (Rails, Django, Laravel, Prisma). Includes ER diagrams and documentation explaining design decisions. Save days of database design work.",
     price: 29.99,
     gumroadUrl: "https://gumroad.com/l/database-schema-library",
     image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800&h=600&fit=crop",
@@ -256,8 +258,8 @@ export const products = [
     id: 19,
     name: "Chrome Extensions Starter Kit",
     slug: "chrome-extensions-starter-kit",
-    description: "Complete boilerplates for building Chrome extensions with React, Vanilla JS, and TypeScript.",
-    longDescription: "Build powerful Chrome extensions without the setup headache.",
+    description: "Complete boilerplates for building Chrome extensions with React, Vanilla JS, and TypeScript. Manifest V3 ready with examples.",
+    longDescription: "Build powerful Chrome extensions without the setup headache. Includes 3 complete boilerplates: React-based, TypeScript, and Vanilla JS. All updated for Manifest V3 with background workers, content scripts, and popup UIs configured. Includes examples: bookmark manager, page modifier, API data displayer, and tab organizer. Build system with hot reload for development. Bundling and minification for production. Publishing guide included. Perfect for developers creating productivity tools, web scrapers, or custom browser features. Clean code structure that's easy to customize.",
     price: 34.99,
     gumroadUrl: "https://gumroad.com/l/chrome-extensions-kit",
     image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=600&fit=crop",
@@ -269,8 +271,8 @@ export const products = [
     id: 20,
     name: "React Component Library Premium",
     slug: "react-component-library-premium",
-    description: "200+ production-ready React components with TypeScript.",
-    longDescription: "Build React apps faster with our comprehensive component library.",
+    description: "200+ production-ready React components with TypeScript. Accessible, responsive, customizable. Includes Storybook documentation.",
+    longDescription: "Build React apps faster with our comprehensive component library. 200+ components including forms, navigation, data display, overlays, feedback, and layout elements. Every component is fully typed with TypeScript, accessible (WCAG 2.1), responsive, and themeable. Supports dark mode out of the box. Includes Storybook documentation with interactive examples. Designed with Tailwind CSS but works with any styling solution. Includes advanced components: data tables, charts, calendars, file uploaders, rich text editors. Regularly updated with new components. Perfect for SaaS applications and web apps.",
     price: 64.99,
     gumroadUrl: "https://gumroad.com/l/react-component-library",
     image: "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=800&h=600&fit=crop",
@@ -279,12 +281,16 @@ export const products = [
     isNew: true,
     tags: ["react", "components", "typescript", "library"]
   },
+
+  // ============================================
+  // NEW DIGITAL ART & MEDIA
+  // ============================================
   {
     id: 21,
     name: "Video Intro Templates",
     slug: "video-intro-templates",
-    description: "100+ customizable video intros for YouTube, social media, and presentations.",
-    longDescription: "Hook viewers from the first second with professional video intros.",
+    description: "100+ customizable video intros for YouTube, social media, and presentations. After Effects and Premiere Pro. Make your content stand out.",
+    longDescription: "Hook viewers from the first second with professional video intros. This pack includes 100+ templates in diverse styles: modern, minimalist, corporate, gaming, tech, vlog, and more. Fully customizable in After Effects and Premiere Pro - change text, colors, logos, and music. Optimized for YouTube (16:9), Instagram (1:1, 9:16), and TikTok. Render in 4K quality. Includes background music tracks and sound effects (royalty-free). Each template is under 15 seconds for maximum retention. Perfect for YouTubers, social media creators, and video professionals. Tutorial videos included.",
     price: 39.99,
     gumroadUrl: "https://gumroad.com/l/video-intro-templates",
     image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=600&fit=crop",
@@ -296,8 +302,8 @@ export const products = [
     id: 22,
     name: "Sound Effects Pack - UI Edition",
     slug: "sound-effects-pack-ui",
-    description: "500+ UI sound effects for apps, websites, and games.",
-    longDescription: "Add satisfying audio feedback to your digital products.",
+    description: "500+ UI sound effects for apps, websites, and games. Clicks, swooshes, notifications, errors, and success sounds. WAV and MP3.",
+    longDescription: "Add satisfying audio feedback to your digital products. This pack contains 500+ professionally designed UI sound effects. Includes button clicks, hover sounds, transitions, notifications, error alerts, success chimes, loading sounds, and more. Every sound is meticulously crafted to enhance user experience without being annoying. Available in WAV (uncompressed) and MP3. Organized by category and emotion (playful, professional, minimal, bold). Perfect for app developers, web designers, and game creators. Royalty-free for commercial use. Includes a preview tool to audition sounds quickly.",
     price: 29.99,
     gumroadUrl: "https://gumroad.com/l/sound-effects-ui",
     image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&h=600&fit=crop",
@@ -309,8 +315,8 @@ export const products = [
     id: 23,
     name: "Animated Graphics Bundle",
     slug: "animated-graphics-bundle",
-    description: "300+ Lottie animations, GIFs, and motion graphics for websites and apps.",
-    longDescription: "Bring your interfaces to life with beautiful animations.",
+    description: "300+ Lottie animations, GIFs, and motion graphics for websites and apps. Loading animations, icons, illustrations, and backgrounds.",
+    longDescription: "Bring your interfaces to life with beautiful animations. Includes 300+ assets: Lottie JSON files (web-optimized), GIFs, and After Effects source files. Covers loading spinners, animated icons, micro-interactions, illustrated scenes, and animated backgrounds. Every animation is smooth, optimized for performance (small file sizes), and customizable. Includes categories: success states, error states, empty states, onboarding flows, and celebrations. Perfect for web developers, app designers, and product teams. Easy to implement with popular libraries (lottie-web, React, Vue). Makes your product feel premium and polished.",
     price: 44.99,
     gumroadUrl: "https://gumroad.com/l/animated-graphics",
     image: "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?w=800&h=600&fit=crop",
@@ -319,12 +325,16 @@ export const products = [
     isNew: true,
     tags: ["animation", "lottie", "motion", "graphics"]
   },
+
+  // ============================================
+  // NEW PRODUCTIVITY & ORGANIZATION
+  // ============================================
   {
     id: 24,
     name: "Complete Airtable Workspace",
     slug: "complete-airtable-workspace",
-    description: "Pre-built Airtable bases for project management, CRM, content calendar, and inventory.",
-    longDescription: "Organize your entire business with Airtable.",
+    description: "Pre-built Airtable bases for project management, CRM, content calendar, and inventory. Customizable templates for business organization.",
+    longDescription: "Organize your entire business with Airtable. This workspace includes 10 pre-built bases: project management with Kanban views, customer CRM with pipeline tracking, content calendar for social media, product inventory manager, employee directory, expense tracker, meeting notes database, and client portal. Each base includes automations, custom views, forms, and integrations. Fully customizable to your workflow. Includes video tutorials showing how to use and modify each base. Perfect for freelancers, small businesses, and teams. Save 40+ hours of setup time. Compatible with free and paid Airtable plans.",
     price: 34.99,
     gumroadUrl: "https://gumroad.com/l/airtable-workspace",
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
@@ -336,8 +346,8 @@ export const products = [
     id: 25,
     name: "Goal Setting & Habit Tracker",
     slug: "goal-setting-habit-tracker",
-    description: "Comprehensive digital planner for setting goals, tracking habits, and achieving success.",
-    longDescription: "Transform your life with our proven goal-setting system.",
+    description: "Comprehensive digital planner for setting goals, tracking habits, and achieving success. 12-month system with weekly reviews and progress dashboards.",
+    longDescription: "Transform your life with our proven goal-setting system. This digital planner helps you set meaningful goals, build lasting habits, and track your progress. Includes annual goal-setting worksheets, quarterly planning templates, monthly review prompts, weekly task breakdown, and daily habit tracking. Features vision board templates, gratitude journals, and reflection prompts. Available in Notion, PDF, and Excel formats. Works on desktop, tablet, and mobile. Includes video training on goal-setting psychology and habit formation. Perfect for anyone serious about personal growth and productivity. Start any time of year.",
     price: 19.99,
     gumroadUrl: "https://gumroad.com/l/goal-habit-tracker",
     image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop",
@@ -350,8 +360,8 @@ export const products = [
     id: 26,
     name: "Content Creator Planner",
     slug: "content-creator-planner",
-    description: "Complete content planning system with editorial calendar, analytics tracker, and idea vault.",
-    longDescription: "Never run out of content ideas again.",
+    description: "Complete content planning system with editorial calendar, analytics tracker, idea vault, and collaboration tools. For creators and social media managers.",
+    longDescription: "Never run out of content ideas again. This planner is designed specifically for content creators and social media managers. Includes 12-month content calendar with posting schedule, content idea vault with 500+ prompts, analytics tracking dashboard, competitor analysis templates, collaboration workspace for teams, and content repurposing system. Plan content across YouTube, Instagram, TikTok, Twitter, and blogs from one central hub. Includes hashtag research tools and best time to post guidelines. Available in Notion, Airtable, and Google Sheets. Perfect for influencers, agencies, and brand managers. Includes growth strategy guides.",
     price: 29.99,
     gumroadUrl: "https://gumroad.com/l/content-creator-planner",
     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
@@ -363,8 +373,8 @@ export const products = [
     id: 27,
     name: "Finance & Budget Templates",
     slug: "finance-budget-templates",
-    description: "Personal and business finance trackers for Excel and Google Sheets.",
-    longDescription: "Take control of your finances with professional templates.",
+    description: "Personal and business finance trackers for Excel and Google Sheets. Budget planners, expense tracking, investment portfolios, and profit/loss statements.",
+    longDescription: "Take control of your finances with professional templates. Includes personal budget planner with category tracking, business expense tracker with receipt organization, investment portfolio monitor, debt payoff calculator, emergency fund tracker, monthly cash flow statement, annual budget overview, and profit/loss statement for small business. Every template includes formulas, charts, and dashboards for visual insights. Compatible with Excel and Google Sheets. Mobile-friendly for on-the-go tracking. Includes tutorial videos and finance management tips. Perfect for individuals, freelancers, and small business owners who want financial clarity.",
     price: 24.99,
     gumroadUrl: "https://gumroad.com/l/finance-budget-templates",
     image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&h=600&fit=crop",
@@ -372,12 +382,16 @@ export const products = [
     featured: false,
     tags: ["finance", "budget", "excel", "money"]
   },
+
+  // ============================================
+  // NEW AI & AUTOMATION
+  // ============================================
   {
     id: 28,
     name: "ChatGPT Automation Workflows",
     slug: "chatgpt-automation-workflows",
-    description: "100+ automation templates using ChatGPT API for email responses, content generation, and more.",
-    longDescription: "Automate your workflow with AI-powered templates.",
+    description: "100+ automation templates using ChatGPT API. Email responses, content generation, data analysis, customer service, and more. Zapier and Make.com ready.",
+    longDescription: "Automate your workflow with AI-powered templates. This collection includes 100+ ready-to-use automation workflows powered by ChatGPT API. Automate email responses, generate social media content, analyze customer feedback, create reports, summarize documents, and more. Works with Zapier, Make.com (Integromat), and n8n. Each workflow includes: setup instructions, prompt templates optimized for accuracy, error handling, and cost estimation. Covers business tasks, marketing automation, customer service, data processing, and content creation. Perfect for entrepreneurs, marketers, and teams who want to save 10+ hours per week. API key setup guide included.",
     price: 44.99,
     gumroadUrl: "https://gumroad.com/l/chatgpt-automation",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
@@ -391,8 +405,8 @@ export const products = [
     id: 29,
     name: "AI Image Generation Masterclass",
     slug: "ai-image-generation-masterclass",
-    description: "Complete course on Midjourney, DALL-E, and Stable Diffusion.",
-    longDescription: "Master AI image generation and unlock your creative potential.",
+    description: "Complete course on Midjourney, DALL-E, and Stable Diffusion. 1000+ proven prompts, techniques, and workflows. Create stunning AI art.",
+    longDescription: "Master AI image generation and unlock your creative potential. This comprehensive course covers Midjourney, DALL-E 3, and Stable Diffusion with video tutorials, written guides, and hands-on exercises. Learn prompt engineering techniques, parameter optimization, style replication, and advanced workflows. Includes 1000+ tested prompts organized by category: portraits, landscapes, products, logos, abstract art, and more. Covers commercial use, upscaling, variation generation, and img2img techniques. Perfect for designers, marketers, content creators, and artists. Includes private community access and monthly updated content. Create professional-quality images in minutes.",
     price: 59.99,
     gumroadUrl: "https://gumroad.com/l/ai-image-masterclass",
     image: "https://images.unsplash.com/photo-1686191128892-c15baf4b85dd?w=800&h=600&fit=crop",
@@ -404,8 +418,8 @@ export const products = [
     id: 30,
     name: "No-Code AI App Builder Kit",
     slug: "no-code-ai-app-builder-kit",
-    description: "Build AI-powered apps without coding.",
-    longDescription: "Launch AI-powered applications without writing code.",
+    description: "Build AI-powered apps without coding. Templates for chatbots, content generators, image tools, and data analyzers. Bubble.io and FlutterFlow ready.",
+    longDescription: "Launch AI-powered applications without writing code. This kit includes 8 complete app templates built on no-code platforms (Bubble.io, FlutterFlow). Includes: AI chatbot for customer service, content generator for marketing, image enhancement tool, data analyzer with natural language queries, document summarizer, language translator, and personalized recommendation engine. Each template connects to OpenAI API with pre-built workflows, UI/UX design, and monetization features (subscriptions, credits). Includes setup tutorials, API integration guides, and customization instructions. Perfect for non-technical founders, marketers, and entrepreneurs who want to build AI products fast.",
     price: 54.99,
     gumroadUrl: "https://gumroad.com/l/nocode-ai-builder",
     image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=600&fit=crop",
@@ -413,12 +427,16 @@ export const products = [
     featured: false,
     tags: ["nocode", "ai", "apps", "bubble"]
   },
+
+  // ============================================
+  // NEW LEARNING & BUSINESS
+  // ============================================
   {
     id: 31,
     name: "Web3 Development Complete Course",
     slug: "web3-development-course",
-    description: "Learn blockchain development, smart contracts, and dApps.",
-    longDescription: "Break into the Web3 industry with this comprehensive developer course.",
+    description: "Learn blockchain development, smart contracts, and dApps. Hands-on course covering Solidity, Ethereum, and Web3.js. Build real projects.",
+    longDescription: "Break into the Web3 industry with this comprehensive developer course. Covers blockchain fundamentals, Solidity programming, smart contract development, Ethereum ecosystem, Web3.js integration, and full dApp development. Build 5 real projects: NFT minting platform, DeFi protocol, DAO governance system, decentralized marketplace, and token swap application. Includes 40+ hours of video tutorials, code repositories, testing strategies, and security best practices. Learn from experienced Web3 developers. Perfect for JavaScript developers transitioning to blockchain. Includes job search guidance and portfolio building tips. Lifetime access with updates.",
     price: 79.99,
     gumroadUrl: "https://gumroad.com/l/web3-development-course",
     image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop",
@@ -430,9 +448,9 @@ export const products = [
   {
     id: 32,
     name: "Freelance Business Starter Kit",
-    slug: "freelance-starter-kit",
-    description: "Everything you need to launch a successful freelance business.",
-    longDescription: "Launch and grow your freelance business with confidence.",
+    slug: "freelance-business-starter-kit",
+    description: "Everything you need to launch a successful freelance business. Contracts, proposals, pricing calculator, client management, and marketing templates.",
+    longDescription: "Launch and grow your freelance business with confidence. This comprehensive kit includes: customizable service contracts (with lawyer review), winning proposal templates, pricing calculator for different services, client onboarding system, project management templates, invoice templates, expense tracking, and tax planning guides. Includes marketing materials: portfolio templates, case study frameworks, cold email scripts, and social media content calendar. Learn how to find clients, price your services, manage projects, and scale your income. Includes recorded workshops on client communication and negotiation. Perfect for designers, developers, writers, and consultants. Based on 6-figure freelancer experience.",
     price: 49.99,
     gumroadUrl: "https://gumroad.com/l/freelance-starter-kit",
     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
@@ -444,8 +462,8 @@ export const products = [
     id: 33,
     name: "SEO & Marketing Playbook",
     slug: "seo-marketing-playbook",
-    description: "Complete digital marketing guide with SEO strategies and growth tactics.",
-    longDescription: "Drive organic traffic and grow your online presence.",
+    description: "Complete digital marketing guide with SEO strategies, content marketing frameworks, and growth tactics. Templates, checklists, and case studies included.",
+    longDescription: "Drive organic traffic and grow your online presence. This playbook contains proven strategies from marketing 7-figure businesses. Covers comprehensive SEO (keyword research, on-page optimization, link building, technical SEO), content marketing (strategy, creation, promotion), email marketing (automation, sequences, copywriting), and social media growth. Includes ready-to-use templates: content calendar, SEO audit checklist, email sequences, social media posts, and landing page frameworks. Features real case studies and growth experiments. Perfect for business owners, marketers, and agencies. Includes Google Analytics setup, conversion tracking, and performance measurement guides. Updated quarterly with latest tactics.",
     price: 44.99,
     gumroadUrl: "https://gumroad.com/l/seo-marketing-playbook",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
@@ -457,8 +475,8 @@ export const products = [
     id: 34,
     name: "SaaS Metrics Dashboard",
     slug: "saas-metrics-dashboard",
-    description: "Track MRR, churn, CAC, LTV, and all key SaaS metrics.",
-    longDescription: "Understand your SaaS business with this professional metrics dashboard.",
+    description: "Track MRR, churn, CAC, LTV, and all key SaaS metrics. Google Sheets and Excel templates with automated calculations and visualizations.",
+    longDescription: "Understand your SaaS business with this professional metrics dashboard. Track Monthly Recurring Revenue (MRR), customer churn, Customer Acquisition Cost (CAC), Lifetime Value (LTV), conversion rates, and 20+ other key metrics. Includes automated calculations, trend analysis, cohort analysis, and predictive forecasting. Beautiful visualizations make data insights clear. Works with data from Stripe, PayPal, and manual entry. Available for Google Sheets and Excel. Includes video tutorials explaining each metric and how to improve it. Perfect for SaaS founders, investors, and product teams. Based on frameworks used by successful startups. Monthly update templates included.",
     price: 34.99,
     gumroadUrl: "https://gumroad.com/l/saas-metrics-dashboard",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
@@ -466,12 +484,16 @@ export const products = [
     featured: false,
     tags: ["saas", "metrics", "analytics", "dashboard"]
   },
+
+  // ============================================
+  // PRODUCT BUNDLES (SAVE BIG!)
+  // ============================================
   {
     id: 35,
     name: "Creator's Complete Bundle",
     slug: "creators-complete-bundle",
-    description: "Everything a content creator needs. 5 premium products at 50% off.",
-    longDescription: "The ultimate toolkit for content creators. Save $139 when you buy the bundle.",
+    description: "Everything a content creator needs to produce professional content and grow their audience. Includes 5 premium products at 50% off.",
+    longDescription: "The ultimate toolkit for content creators. This bundle includes: Social Media Template Mega Pack ($39.99), Content Creator Planner ($29.99), Video Intro Templates ($39.99), Illustration Mega Pack ($49.99), and ChatGPT Automation Workflows ($44.99). Everything you need to create stunning content, stay organized, and automate your workflow. Save $139 when you buy the bundle instead of individual products. Perfect for YouTubers, Instagram creators, TikTokers, and social media managers who want to level up their content game.",
     price: 149.99,
     gumroadUrl: "https://gumroad.com/l/creators-bundle",
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop",
@@ -479,14 +501,21 @@ export const products = [
     featured: true,
     bestSeller: true,
     discount: 139,
+    includes: [
+      "Social Media Template Mega Pack",
+      "Content Creator Planner",
+      "Video Intro Templates",
+      "Illustration Mega Pack",
+      "ChatGPT Automation Workflows"
+    ],
     tags: ["bundle", "creator", "content", "save"]
   },
   {
     id: 36,
     name: "Developer's Pro Bundle",
     slug: "developers-pro-bundle",
-    description: "Complete development toolkit. 5 essential tools for $199 (Save $180).",
-    longDescription: "Everything developers need to build and ship faster. Save $180.",
+    description: "Complete development toolkit to ship products faster with production-ready code. 5 essential tools for $199 (Save $180).",
+    longDescription: "Everything developers need to build and ship faster. Includes: Full-Stack Boilerplate Collection ($89.99), React Component Library Premium ($64.99), API Integration Templates ($44.99), Database Schema Library ($29.99), and Testing & DevOps Toolkit ($39.99). Stop reinventing the wheel and start with battle-tested code. Save $180 and get instant access to production-ready templates, components, and workflows. Perfect for indie hackers, startups, and development agencies.",
     price: 199.99,
     gumroadUrl: "https://gumroad.com/l/developers-bundle",
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop",
@@ -494,20 +523,35 @@ export const products = [
     featured: true,
     bestSeller: true,
     discount: 180,
+    includes: [
+      "Full-Stack Boilerplate Collection",
+      "React Component Library Premium",
+      "API Integration Templates",
+      "Database Schema Library",
+      "Testing & DevOps Toolkit"
+    ],
     tags: ["bundle", "developer", "code", "save"]
   },
   {
     id: 37,
     name: "Designer's Ultimate Bundle",
     slug: "designers-ultimate-bundle",
-    description: "Professional design assets for every project. 6 premium products for $179 (Save $160).",
-    longDescription: "The complete designer's arsenal. Save $160 on this comprehensive collection.",
+    description: "Professional design assets for every project, from branding to UI/UX. 6 premium products for $179 (Save $160).",
+    longDescription: "The complete designer's arsenal. Get: Brand Identity Kit ($59.99), Premium Icon Pack Collection ($34.99), Typography Collection Pro ($79.99), 3D Asset Library ($69.99), Illustration Mega Pack ($49.99), and Minimalist UI Kit ($44.99). Everything you need for branding, web design, app UI, and creative projects. Save $160 on this comprehensive collection. Perfect for freelance designers, agencies, and creative professionals who want unlimited design resources.",
     price: 179.99,
     gumroadUrl: "https://gumroad.com/l/designers-bundle",
     image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=600&fit=crop",
     category: "Bundles",
     featured: true,
     discount: 160,
+    includes: [
+      "Brand Identity Kit",
+      "Premium Icon Pack Collection",
+      "Typography Collection Pro",
+      "3D Asset Library",
+      "Illustration Mega Pack",
+      "Minimalist UI Kit"
+    ],
     tags: ["bundle", "design", "assets", "save"]
   },
   {
@@ -515,16 +559,27 @@ export const products = [
     name: "Business Growth Bundle",
     slug: "business-growth-bundle",
     description: "Everything you need to start, run, and grow a profitable online business. 5 essential resources for $159 (Save $140).",
-    longDescription: "Launch and scale your business with confidence. Save $140.",
+    longDescription: "Launch and scale your business with confidence. Includes: Freelance Business Starter Kit ($49.99), SEO & Marketing Playbook ($44.99), SaaS Metrics Dashboard ($34.99), Complete Airtable Workspace ($34.99), and Goal Setting & Habit Tracker ($19.99). From client contracts to marketing strategies to productivity systems - everything you need in one bundle. Save $140 and get the complete business foundation. Perfect for entrepreneurs, freelancers, and small business owners ready to grow.",
     price: 159.99,
     gumroadUrl: "https://gumroad.com/l/business-bundle",
     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
     category: "Bundles",
     featured: true,
     discount: 140,
+    includes: [
+      "Freelance Business Starter Kit",
+      "SEO & Marketing Playbook",
+      "SaaS Metrics Dashboard",
+      "Complete Airtable Workspace",
+      "Goal Setting & Habit Tracker"
+    ],
     tags: ["bundle", "business", "growth", "save"]
   }
 ];
+
+// ============================================
+// HELPER FUNCTIONS
+// ============================================
 
 export const getProductBySlug = (slug) => {
   return products.find(product => product.slug === slug);
@@ -541,23 +596,34 @@ export const getProductsByCategory = (category) => {
   return products.filter(product => product.category === category);
 };
 
+// Get all bundle products
 export const getBundles = () => {
   return products.filter(product => product.category === 'Bundles');
 };
 
+// Get new products (marked with isNew flag)
 export const getNewProducts = () => {
   return products.filter(product => product.isNew === true);
 };
 
+// Get best sellers (marked with bestSeller flag)
 export const getBestSellers = () => {
   return products.filter(product => product.bestSeller === true);
 };
 
+// Get related products by category (exclude the current product)
 export const getRelatedProducts = (productId, limit = 3) => {
   const product = products.find(p => p.id === productId);
   if (!product) return [];
-  return products.filter(p => p.id !== productId && p.category === product.category).slice(0, limit);
+  
+  return products
+    .filter(p => p.id !== productId && p.category === product.category)
+    .slice(0, limit);
 };
+
+// ============================================
+// CATEGORIES
+// ============================================
 
 export const categories = [
   "All Products",
@@ -572,7 +638,3 @@ export const categories = [
   "Business",
   "Marketing"
 ];
-Then commit with message: "Restore complete 38-product catalog"
-
-This is the FULL working code - copy ALL of it! 🚀
-
