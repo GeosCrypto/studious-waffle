@@ -422,7 +422,7 @@ export const products = [
     longDescription: "Launch AI-powered applications without writing code. This kit includes 8 complete app templates built on no-code platforms (Bubble.io, FlutterFlow). Includes: AI chatbot for customer service, content generator for marketing, image enhancement tool, data analyzer with natural language queries, document summarizer, language translator, and personalized recommendation engine. Each template connects to OpenAI API with pre-built workflows, UI/UX design, and monetization features (subscriptions, credits). Includes setup tutorials, API integration guides, and customization instructions. Perfect for non-technical founders, marketers, and entrepreneurs who want to build AI products fast.",
     price: 54.99,
     gumroadUrl: "https://gumroad.com/l/nocode-ai-builder",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
+    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=600&fit=crop",
     category: "AI Tools",
     featured: false,
     tags: ["nocode", "ai", "apps", "bubble"]
