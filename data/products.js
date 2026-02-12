@@ -409,7 +409,7 @@ export const products = [
     longDescription: "Master AI image generation and unlock your creative potential. This comprehensive course covers Midjourney, DALL-E 3, and Stable Diffusion with video tutorials, written guides, and hands-on exercises. Learn prompt engineering techniques, parameter optimization, style replication, and advanced workflows. Includes 1000+ tested prompts organized by category: portraits, landscapes, products, logos, abstract art, and more. Covers commercial use, upscaling, variation generation, and img2img techniques. Perfect for designers, marketers, content creators, and artists. Includes private community access and monthly updated content. Create professional-quality images in minutes.",
     price: 59.99,
     gumroadUrl: "https://gumroad.com/l/ai-image-masterclass",
-    image: "https://images.unsplash.com/photo-1686191128892-c15baf4b85dd?w=800&h=600&fit=crop",
+    image: "https://images.unsplash.comphoto-1677442136019-21780ecad995/?w=800&h=600&fit=crop",
     category: "AI Tools",
     featured: false,
     tags: ["ai", "midjourney", "dalle", "image generation"]
