@@ -574,6 +574,20 @@ export const products = [
       "Goal Setting & Habit Tracker"
     ],
     tags: ["bundle", "business", "growth", "save"]
+  },
+  {
+    id: 39,
+    name: "NemoClaw",
+    slug: "nemo-claw",
+    description: "Powerful web scraping and data extraction toolkit with 50+ ready-to-use scripts, automation templates, and a step-by-step guide for developers.",
+    longDescription: "NemoClaw is the ultimate web data extraction toolkit for developers who need to gather, transform, and automate data pipelines fast. Includes 50+ battle-tested scraping scripts for popular platforms, reusable automation templates for headless browsers (Puppeteer & Playwright), proxy rotation helpers, rate-limiting utilities, and a comprehensive guide covering ethical scraping best practices. Whether you're building datasets for ML projects, monitoring competitor pricing, or automating repetitive research tasks, NemoClaw gives you the claw you need to grab data with precision and stealth. Fully documented with real-world examples and regular script updates included.",
+    price: 29.99,
+    gumroadUrl: "https://gumroad.com/l/nemo-claw",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop",
+    category: "Developer Tools",
+    featured: true,
+    isNew: true,
+    tags: ["scraping", "automation", "puppeteer", "playwright", "data"]
   }
 ];
 
